@@ -1,0 +1,50 @@
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: brown;
+}
+
+.nav {
+  background-color: #070800;
+  padding: 10px 0;
+
+}
+
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.nav li {
+  margin: 0 20px;
+}
+
+.nav a {
+  color: #deec11;
+  text-decoration: solid;
+  font-weight: bold;
+}
+
+.nav a:hover {
+  color: #eaeaea;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.cart-item {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.total-price {
+  margin-top: 20px;
+  font-weight: bold;
+}
